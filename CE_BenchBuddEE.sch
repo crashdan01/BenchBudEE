@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:CE_BenchBuddEE
 LIBS:CE_BenchBuddEE-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "4 feb 2014"
+Date "5 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -68,8 +69,13 @@ F1 "Fan Driver.sch" 50
 F2 "POWER +" O R 8600 1850 60 
 F3 "POWER -" I R 8600 1950 60 
 F4 "TACH" I R 8600 2050 60 
-F5 "TACH_OUT" O L 6600 2000 60 
-F6 "FAN_IN" I L 6600 1900 60 
+F5 "TACH_OUT" O L 6600 2250 60 
+F6 "FAN_IN" I L 6600 1550 60 
+F7 "Current Measure" O L 6600 2350 60 
+F8 "MOSI" I L 6600 1750 60 
+F9 "MISO" O L 6600 1850 60 
+F10 "CS_N" I L 6600 1950 60 
+F11 "SCLK" I L 6600 2050 60 
 $EndSheet
 $Sheet
 S 6600 3950 2000 1000
@@ -90,8 +96,9 @@ F0 "Relay" 50
 F1 "Relay.sch" 50
 F2 "D_IN+" I L 6600 5650 60 
 F3 "D_IN-" O L 6600 5750 60 
-F4 "RELAY +" I R 8600 5650 60 
-F5 "RELAY -" O R 8600 5750 60 
+F4 "NC" B R 8600 5600 60 
+F5 "NO" B R 8600 5500 60 
+F6 "COM" B R 8600 5900 60 
 $EndSheet
 $Sheet
 S 1700 3950 2000 2000
