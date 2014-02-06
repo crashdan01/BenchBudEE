@@ -36,7 +36,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 5 9
 Title ""
 Date "6 feb 2014"
 Rev ""
@@ -49,9 +49,9 @@ $EndDescr
 Text HLabel 2500 3400 0    60   Input ~ 0
 LED_EN_PWM
 Text HLabel 10150 2500 2    60   Output ~ 0
-STRING+
-Text HLabel 10200 3550 2    60   Input ~ 0
-STRING-
+LED_STRING+
+Text HLabel 10200 3550 2    60   Output ~ 0
+LED_STRING-
 $Comp
 L AP5726 U?
 U 1 1 52F311DA
@@ -203,4 +203,10 @@ F 3 "~" H 9600 3150 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9600 3000 9600 3150
+Wire Notes Line
+	4000 3700 2550 3700
+Wire Notes Line
+	2550 3700 2550 4050
+Text Notes 2150 4200 0    60   ~ 0
+Dedicated LED Driver
 $EndSCHEMATC
