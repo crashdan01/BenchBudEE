@@ -29,15 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:CE_BenchBuddEE-cache
 LIBS:CE_BenchBuddEE
 LIBS:CE_BenchBuddEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 3 9
 Title ""
-Date "5 feb 2014"
+Date "6 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""

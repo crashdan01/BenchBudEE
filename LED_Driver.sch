@@ -29,15 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:CE_BenchBuddEE-cache
 LIBS:CE_BenchBuddEE
 LIBS:CE_BenchBuddEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 8 9
 Title ""
-Date "5 feb 2014"
+Date "6 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,12 +46,161 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2500 2600 0    60   Input ~ 0
-EN
-Text HLabel 2500 2850 0    60   Input ~ 0
-FREQ
-Text HLabel 3800 2600 0    60   Output ~ 0
+Text HLabel 2500 3400 0    60   Input ~ 0
+LED_EN_PWM
+Text HLabel 10150 2500 2    60   Output ~ 0
 STRING+
-Text HLabel 3800 2850 0    60   Input ~ 0
+Text HLabel 10200 3550 2    60   Input ~ 0
 STRING-
+$Comp
+L AP5726 U?
+U 1 1 52F311DA
+P 4650 3400
+F 0 "U?" H 4950 2950 60  0000 C CNN
+F 1 "AP5726" H 4650 3400 60  0000 C CNN
+F 2 "" H 4650 3400 60  0000 C CNN
+F 3 "" H 4650 3400 60  0000 C CNN
+	1    4650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3400 2500 3400
+$Comp
+L INDUCTOR L?
+U 1 1 52F311ED
+P 4650 2500
+F 0 "L?" V 4600 2500 40  0000 C CNN
+F 1 "INDUCTOR" V 4750 2500 40  0000 C CNN
+F 2 "~" H 4650 2500 60  0000 C CNN
+F 3 "~" H 4650 2500 60  0000 C CNN
+	1    4650 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 2650 4300 2500
+Wire Wire Line
+	3850 2500 4350 2500
+Wire Wire Line
+	5000 2650 5000 2500
+Wire Wire Line
+	4950 2500 5350 2500
+$Comp
+L +5V #PWR?
+U 1 1 52F312CC
+P 3850 2350
+F 0 "#PWR?" H 3850 2440 20  0001 C CNN
+F 1 "+5V" H 3850 2440 30  0000 C CNN
+F 2 "~" H 3850 2350 60  0000 C CNN
+F 3 "~" H 3850 2350 60  0000 C CNN
+	1    3850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 52F312DB
+P 3850 2800
+F 0 "C?" H 3850 2900 40  0000 L CNN
+F 1 "C" H 3856 2715 40  0000 L CNN
+F 2 "~" H 3888 2650 30  0000 C CNN
+F 3 "~" H 3850 2800 60  0000 C CNN
+	1    3850 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2350 3850 2600
+Connection ~ 4300 2500
+Connection ~ 3850 2500
+$Comp
+L GND #PWR?
+U 1 1 52F312F8
+P 3850 3200
+F 0 "#PWR?" H 3850 3200 30  0001 C CNN
+F 1 "GND" H 3850 3130 30  0001 C CNN
+F 2 "~" H 3850 3200 60  0000 C CNN
+F 3 "~" H 3850 3200 60  0000 C CNN
+	1    3850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3000 3850 3200
+$Comp
+L DIODESCH D?
+U 1 1 52F3136A
+P 5550 2500
+F 0 "D?" H 5550 2600 40  0000 C CNN
+F 1 "DIODESCH" H 5550 2400 40  0000 C CNN
+F 2 "~" H 5550 2500 60  0000 C CNN
+F 3 "~" H 5550 2500 60  0000 C CNN
+	1    5550 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 2500
+Wire Wire Line
+	5400 3300 6050 3300
+Wire Wire Line
+	6050 3300 6050 2500
+Wire Wire Line
+	5750 2500 10150 2500
+$Comp
+L C C?
+U 1 1 52F31397
+P 9600 2800
+F 0 "C?" H 9600 2900 40  0000 L CNN
+F 1 "C" H 9606 2715 40  0000 L CNN
+F 2 "~" H 9638 2650 30  0000 C CNN
+F 3 "~" H 9600 2800 60  0000 C CNN
+	1    9600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2500 9600 2600
+Connection ~ 6050 2500
+Connection ~ 9600 2500
+$Comp
+L R R?
+U 1 1 52F313C5
+P 5700 3950
+F 0 "R?" V 5780 3950 40  0000 C CNN
+F 1 "R" V 5707 3951 40  0000 C CNN
+F 2 "~" V 5630 3950 30  0000 C CNN
+F 3 "~" H 5700 3950 30  0000 C CNN
+	1    5700 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52F313D4
+P 4650 4550
+F 0 "#PWR?" H 4650 4550 30  0001 C CNN
+F 1 "GND" H 4650 4480 30  0001 C CNN
+F 2 "~" H 4650 4550 60  0000 C CNN
+F 3 "~" H 4650 4550 60  0000 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4150 4650 4550
+Wire Wire Line
+	5400 3550 10200 3550
+Wire Wire Line
+	5700 4200 5700 4350
+Wire Wire Line
+	5700 3550 5700 3700
+Wire Wire Line
+	5700 4350 4650 4350
+Connection ~ 4650 4350
+Connection ~ 5700 3550
+$Comp
+L GND #PWR?
+U 1 1 52F314BD
+P 9600 3150
+F 0 "#PWR?" H 9600 3150 30  0001 C CNN
+F 1 "GND" H 9600 3080 30  0001 C CNN
+F 2 "~" H 9600 3150 60  0000 C CNN
+F 3 "~" H 9600 3150 60  0000 C CNN
+	1    9600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3000 9600 3150
 $EndSCHEMATC
