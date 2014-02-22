@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title ""
-Date "21 feb 2014"
+Date "22 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -102,15 +102,11 @@ F 3 "~" H 4500 6750 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3850 3600 4000 3600
-Wire Wire Line
-	4000 3600 4100 3600
+	3850 3600 4100 3600
 Wire Wire Line
 	3850 4750 3850 4600
 Wire Wire Line
-	3850 4600 4000 4600
-Wire Wire Line
-	4000 4600 4100 4600
+	3850 4600 4100 4600
 $Comp
 L JUMPER JP2
 U 1 1 52F2FBD5
@@ -134,9 +130,7 @@ F 3 "~" H 4500 5100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4000 4600 4000 5100
-Wire Wire Line
-	4000 5100 4000 6900
+	4000 4600 4000 6900
 Wire Wire Line
 	4000 5100 4200 5100
 Connection ~ 4000 4600
@@ -145,16 +139,12 @@ Wire Wire Line
 Wire Wire Line
 	4200 3100 4000 3100
 Wire Wire Line
-	4000 1200 4000 3100
-Wire Wire Line
-	4000 3100 4000 3600
+	4000 1200 4000 3600
 Connection ~ 4000 3600
 Wire Wire Line
 	4800 3100 5200 3100
 Wire Wire Line
-	5200 2900 5200 3100
-Wire Wire Line
-	5200 3100 5200 3600
+	5200 2900 5200 3600
 Wire Wire Line
 	5200 3600 4900 3600
 Wire Wire Line
@@ -261,11 +251,7 @@ F 3 "~" H 4500 4550 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4500 3900 4500 4000
-Wire Wire Line
-	4500 4000 4500 4100
-Wire Wire Line
-	4500 4100 4500 4300
+	4500 3900 4500 4300
 Wire Wire Line
 	3900 4100 4500 4100
 Connection ~ 4500 4100
@@ -297,9 +283,7 @@ $EndComp
 Wire Wire Line
 	5000 6900 5000 6750
 Wire Wire Line
-	5000 6000 5000 6100
-Wire Wire Line
-	5000 6100 5000 6250
+	5000 6000 5000 6250
 Wire Wire Line
 	5000 6100 4500 6100
 Wire Wire Line
@@ -360,9 +344,7 @@ $EndComp
 Wire Wire Line
 	5000 1200 5000 1400
 Wire Wire Line
-	6350 3150 6350 3250
-Wire Wire Line
-	6350 3250 6350 3350
+	6350 3150 6350 3350
 Wire Wire Line
 	4500 2000 4500 1700
 $Comp
@@ -377,9 +359,7 @@ F 3 "~" H 5000 2750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 4600 5200 5100
-Wire Wire Line
-	5200 5100 5200 5300
+	5200 4600 5200 5300
 Connection ~ 5200 5100
 Wire Wire Line
 	5000 2600 5000 2750
@@ -431,15 +411,11 @@ F 3 "~" H 6350 4400 30  0000 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6350 4650 6350 4750
-Wire Wire Line
-	6350 4750 6350 4850
+	6350 4650 6350 4850
 Wire Wire Line
 	6350 5350 6350 5500
 Wire Wire Line
-	6350 3850 6350 4000
-Wire Wire Line
-	6350 4000 6350 4150
+	6350 3850 6350 4150
 Connection ~ 6350 4000
 Wire Wire Line
 	6350 5500 5200 5500
@@ -469,9 +445,7 @@ F 3 "~" H 5000 1650 30  0000 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5000 1900 5000 2000
-Wire Wire Line
-	5000 2000 5000 2100
+	5000 1900 5000 2100
 Wire Wire Line
 	5000 2000 4500 2000
 Connection ~ 5000 2000
@@ -490,21 +464,9 @@ Wire Wire Line
 Wire Wire Line
 	6650 3050 7250 3050
 Wire Wire Line
-	4900 6900 5000 6900
+	4900 6900 7250 6900
 Wire Wire Line
-	5000 6900 5200 6900
-Wire Wire Line
-	5200 6900 5400 6900
-Wire Wire Line
-	5400 6900 7250 6900
-Wire Wire Line
-	4900 1200 5000 1200
-Wire Wire Line
-	5000 1200 5200 1200
-Wire Wire Line
-	5200 1200 5400 1200
-Wire Wire Line
-	5400 1200 7250 1200
+	4900 1200 7250 1200
 Text Label 5450 6500 0    60   ~ 0
 V-_MON
 Connection ~ 5400 6900

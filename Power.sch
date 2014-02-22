@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "21 feb 2014"
+Date "22 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -51,9 +51,12 @@ L CONN_12X2 P3
 U 1 1 52F2FEBD
 P 3500 3750
 F 0 "P3" H 3500 4400 60  0000 C CNN
-F 1 "CONN_12X2" V 3500 3750 50  0000 C CNN
+F 1 "24 Pin MiniFit JR" V 3500 3750 50  0000 C CNN
 F 2 "" H 3500 3750 60  0000 C CNN
 F 3 "" H 3500 3750 60  0000 C CNN
+F 4 "Molex" H 3500 3750 60  0001 C CNN "MFG Name"
+F 5 "39-30-1240" H 3500 3750 60  0001 C CNN "MFG Part Num"
+F 6 "538-39-30-1240" H 3500 3750 60  0001 C CNN "Distrib Part Num 1"
 	1    3500 3750
 	1    0    0    -1  
 $EndComp

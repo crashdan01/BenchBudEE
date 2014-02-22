@@ -1,4 +1,4 @@
-update=2/20/2014 9:42:01 PM
+update=2/21/2014 8:08:29 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -49,12 +49,12 @@ LibName31=CE_BenchBuddEE-cache
 LibName32=CE_BenchBuddEE
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=CE_BenchBuddEE.net
 UseCmpFile=1
-PadDrill=0.000000000000
-PadDrillOvalY=0.000000000000
-PadSizeH=1.500000000000
-PadSizeV=1.300000000000
+PadDrill=1.016000000000
+PadDrillOvalY=1.016000000000
+PadSizeH=2.032000000000
+PadSizeV=2.032000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -63,9 +63,9 @@ ModuleTextSizeH=1.000000000000
 ModuleTextSizeThickness=0.150000000000
 SolderMaskClearance=0.000000000000
 SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
+DrawSegmentWidth=0.177800000000
 BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
+ModuleOutlineThickness=0.025400000000
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets

@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/20/2014 9:41:11 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/21/2014 7:57:06 PM
 
 BeginCmp
-TimeStamp = /52EBF29E/52F3CC17;
+TimeStamp = /52EBF29E/53080DCE;
 Reference = ARD1;
 ValeurCmp = ARDUINO;
-IdModule  = ;
+IdModule  = Arduino_Uno_R3_Footprint;
 EndCmp
 
 BeginCmp
@@ -85,6 +85,20 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
+TimeStamp = /52EBF362/5308A27B;
+Reference = C12;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF362/5308AF5A;
+Reference = C13;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52EBF302/52F2AFEE;
 Reference = D1;
 ValeurCmp = LG Q971-KN-1;
@@ -108,8 +122,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EBF362/52F40093;
 Reference = D4;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = B130-13-F;
+IdModule  = SMA;
 EndCmp
 
 BeginCmp
@@ -185,8 +199,22 @@ EndCmp
 BeginCmp
 TimeStamp = /52EBF30F/52F2FEBD;
 Reference = P3;
-ValeurCmp = CONN_12X2;
-IdModule  = ;
+ValeurCmp = 24 Pin MiniFit JR;
+IdModule  = ATX_Header;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF38D/5307C570;
+Reference = P4;
+ValeurCmp = 12 Pin Terminal Block;
+IdModule  = 12_Pin_TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF38D/5307C76F;
+Reference = P5;
+ValeurCmp = 3 Pin TB;
+IdModule  = 3_Pin_TB;
 EndCmp
 
 BeginCmp
@@ -199,22 +227,22 @@ EndCmp
 BeginCmp
 TimeStamp = /52EBF362/52F4044A;
 Reference = Q2;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = DMN65D8L-7;
+IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EBF362/52F3FFDA;
+TimeStamp = /52EBF362/5308B4F2;
 Reference = Q3;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = AOD476;
+IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EBF362/52F27A2A;
+TimeStamp = /52EBF362/5308B4A8;
 Reference = Q4;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = AOD476;
+IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
@@ -396,133 +424,133 @@ BeginCmp
 TimeStamp = /52EBF362/52F27BDB;
 Reference = R26;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF362/52F27A50;
 Reference = R27;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/53010A6D;
 Reference = R28;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F42414;
 Reference = R29;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F4EA;
 Reference = R30;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F4E4;
 Reference = R31;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F4BB;
 Reference = R32;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F4AB;
 Reference = R33;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F544;
 Reference = R34;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F53E;
 Reference = R35;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F538;
 Reference = R36;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3EA88;
 Reference = R37;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F5E7;
 Reference = R38;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F47FE6;
 Reference = R39;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3F532;
 Reference = R40;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/53071A5A;
 Reference = R41;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/53071A63;
 Reference = R42;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F3EAA6;
 Reference = R43;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBF29E/52F41957;
 Reference = R44;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
@@ -530,6 +558,48 @@ TimeStamp = /52EBF29E/52F3F59C;
 Reference = R45;
 ValeurCmp = R;
 IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF2F6/5307912D;
+Reference = R46;
+ValeurCmp = 0Ω;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF2F6/53078EA2;
+Reference = R47;
+ValeurCmp = 0Ω;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF29E/53081DC5;
+Reference = R48;
+ValeurCmp = R;
+IdModule  = SM0805-BRIDGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF29E/53081DCB;
+Reference = R49;
+ValeurCmp = R;
+IdModule  = SM0805-BRIDGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF29E/530829AD;
+Reference = R50;
+ValeurCmp = R;
+IdModule  = SM0805-BRIDGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EBF29E/530829A4;
+Reference = R51;
+ValeurCmp = R;
+IdModule  = SM0805-BRIDGE;
 EndCmp
 
 BeginCmp
@@ -570,8 +640,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EBF362/52F40000;
 Reference = TH5;
-ValeurCmp = THERMISTOR;
-IdModule  = ;
+ValeurCmp = MINISMDC050F-2;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
@@ -585,7 +655,7 @@ BeginCmp
 TimeStamp = /52EBF2F6/52F12C49;
 Reference = U2;
 ValeurCmp = OPA4170;
-IdModule  = SO14N;
+IdModule  = SO14E;
 EndCmp
 
 BeginCmp
@@ -638,10 +708,10 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EBF362/52F27B2C;
+TimeStamp = /52EBF362/530827D3;
 Reference = U10;
-ValeurCmp = MCP4922-E/P;
-IdModule  = ;
+ValeurCmp = MCP4801;
+IdModule  = SO8N;
 EndCmp
 
 EndListe
