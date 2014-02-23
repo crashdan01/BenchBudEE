@@ -319,6 +319,10 @@ F 0 "U3" H 6150 5550 60  0000 C CNN
 F 1 "LMT84" H 6050 5950 60  0000 C CNN
 F 2 "" H 5850 5950 60  0000 C CNN
 F 3 "" H 5850 5950 60  0000 C CNN
+F 4 "Texas Instruments" H 5850 5950 60  0001 C CNN "MFG Name"
+F 5 "LMT84DCKT" H 5850 5950 60  0001 C CNN "MFG Part Num"
+F 6 "296-35727-2" H 5850 5950 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://www.ti.com/lit/ds/symlink/lmt84.pdf" H 5850 5950 60  0001 C CNN "Distrib Part Num 1 Link"
 	1    5850 5950
 	1    0    0    -1  
 $EndComp
@@ -715,6 +719,10 @@ F 0 "U1" H 2800 1950 60  0000 C CNN
 F 1 "MCP3901" H 2800 5000 60  0000 C CNN
 F 2 "~" H 2900 3750 60  0000 C CNN
 F 3 "~" H 2900 3750 60  0000 C CNN
+F 4 "Microchip Tech" H 2800 3300 60  0001 C CNN "MFG Name"
+F 5 "MCP3901A0-I/SS" H 2800 3300 60  0001 C CNN "MFG Part Num"
+F 6 "MCP3901A0-I/SS" H 2800 3300 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en545016" H 2800 3300 60  0001 C CNN "Distrib Part Num 1 Link"
 	1    2800 3300
 	-1   0    0    -1  
 $EndComp

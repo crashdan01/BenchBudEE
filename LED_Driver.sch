@@ -63,8 +63,6 @@ F 3 "" H 4650 3400 60  0000 C CNN
 	1    4650 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 3400 2500 3400
 $Comp
 L INDUCTOR L4
 U 1 1 52F311ED
@@ -209,4 +207,6 @@ Wire Notes Line
 	2550 3700 2550 4050
 Text Notes 2150 4200 0    60   ~ 0
 Dedicated LED Driver\nAP5726 is spec'd component
+Wire Wire Line
+	3900 3400 2500 3400
 $EndSCHEMATC

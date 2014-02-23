@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/21/2014 6:12:34 PM
+PCBNEW-LibModule-V1  2/22/2014 1:03:38 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -7,6 +7,7 @@ $INDEX
 4-SMD
 ATX_Header
 Arduino_Uno_R3_Footprint
+BB_Switch
 SM0805-BRIDGE
 SMA
 TE-SPDT
@@ -811,6 +812,60 @@ Ne 0 ""
 Po -30.48 0
 $EndPAD
 $EndMODULE Arduino_Uno_R3_Footprint
+$MODULE BB_Switch
+Po 0 0 0 15 530910A8 00000000 ~~
+Li BB_Switch
+Sc 0
+AR 
+Op 0 0 0
+T0 4.318 -3.048 1 1 0 0.15 N I 21 N "BB_Switch"
+T1 2.54 3.302 1 1 0 0.15 N V 21 N "VAL**"
+DS 5.7 2.2 5.7 3.9 0.0254 21
+DS 5.7 3.9 6 3.9 0.0254 21
+DS 6 3.9 6.2 3.6 0.0254 21
+DS 6.2 3.6 6.4 3.9 0.0254 21
+DS 6.4 3.9 6.7 3.9 0.0254 21
+DS 6.7 3.9 6.7 2.2 0.0254 21
+DS -0.2 2.2 -0.2 -2.2 0.0254 21
+DS -0.2 -2.2 8.4 -2.2 0.0254 21
+DS 8.4 -2.2 8.4 2.2 0.0254 21
+DS 8.4 2.2 -0.2 2.2 0.0254 21
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 8.2 0
+$EndPAD
+$PAD
+Sh "1" C 1.4 1.4 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.1 0
+$EndPAD
+$PAD
+Sh "2" C 1.4 1.4 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.1 0
+$EndPAD
+$PAD
+Sh "3" C 1.4 1.4 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.1 0
+$EndPAD
+$EndMODULE BB_Switch
 $MODULE SM0805-BRIDGE
 Po 0 0 0 15 53080777 00000000 ~~
 Li SM0805-BRIDGE

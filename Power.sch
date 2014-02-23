@@ -76,9 +76,13 @@ L SWITCH_INV SW1
 U 1 1 52F2FEED
 P 5050 4750
 F 0 "SW1" H 4850 4900 50  0000 C CNN
-F 1 "SWITCH_INV" H 4900 4600 50  0000 C CNN
+F 1 "Power Switch" H 4900 4600 50  0000 C CNN
 F 2 "~" H 5050 4750 60  0000 C CNN
 F 3 "~" H 5050 4750 60  0000 C CNN
+F 4 "C&K Components" H 5050 4750 60  0001 C CNN "MFG Name"
+F 5 "OS102011MA1QN1" H 5050 4750 60  0001 C CNN "MFG Part Num"
+F 6 "CKN9559" H 5050 4750 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://www.ck-components.com/index.php?module=media&action=Display&cmpref=14388&lang=en&width=&height=&format=&alt=" H 5050 4750 60  0001 C CNN "Distrib Part Num 1 Link"
 	1    5050 4750
 	1    0    0    -1  
 $EndComp
@@ -229,28 +233,6 @@ F 3 "~" H 9150 4900 60  0000 C CNN
 	1    9150 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L INDUCTOR L2
-U 1 1 52F2FF42
-P 8850 4100
-F 0 "L2" V 8800 4100 40  0000 C CNN
-F 1 "INDUCTOR" V 8950 4100 40  0000 C CNN
-F 2 "~" H 8850 4100 60  0000 C CNN
-F 3 "~" H 8850 4100 60  0000 C CNN
-	1    8850 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L INDUCTOR L3
-U 1 1 52F2FF48
-P 8900 5500
-F 0 "L3" H 8850 5500 40  0000 C CNN
-F 1 "INDUCTOR" V 9000 5500 40  0000 C CNN
-F 2 "~" H 8900 5500 60  0000 C CNN
-F 3 "~" H 8900 5500 60  0000 C CNN
-	1    8900 5500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8400 3950 8400 4100
 Wire Wire Line
@@ -345,43 +327,14 @@ L THERMISTOR TH1
 U 1 1 52F410AE
 P 4800 3200
 F 0 "TH1" V 4900 3250 50  0000 C CNN
-F 1 "THERMISTOR" V 4700 3200 50  0000 C CNN
+F 1 "MINISMDC050F-2" V 4700 3200 50  0000 C CNN
 F 2 "~" H 4800 3200 60  0000 C CNN
 F 3 "~" H 4800 3200 60  0000 C CNN
+F 4 "TE Connectivity" H 4800 3200 60  0001 C CNN "MFG Name"
+F 5 "MINISMDC050F-2" H 4800 3200 60  0001 C CNN "MFG Part Num"
+F 6 "MINISMDC050FCT" H 4800 3200 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://documents.tycoelectronics.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7FSCD25063%7FH%7Fpdf%7FEnglish%7FENG_SS_SCD25063_H.pdf" H 4800 3200 60  0001 C CNN "Distrib Part Num 1 Link"
 	1    4800 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L THERMISTOR TH2
-U 1 1 52F410C0
-P 5400 3400
-F 0 "TH2" V 5500 3450 50  0000 C CNN
-F 1 "THERMISTOR" V 5300 3400 50  0000 C CNN
-F 2 "~" H 5400 3400 60  0000 C CNN
-F 3 "~" H 5400 3400 60  0000 C CNN
-	1    5400 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L THERMISTOR TH3
-U 1 1 52F410C6
-P 6000 3600
-F 0 "TH3" V 6100 3650 50  0000 C CNN
-F 1 "THERMISTOR" V 5900 3600 50  0000 C CNN
-F 2 "~" H 6000 3600 60  0000 C CNN
-F 3 "~" H 6000 3600 60  0000 C CNN
-	1    6000 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L THERMISTOR TH4
-U 1 1 52F410CC
-P 6600 3800
-F 0 "TH4" V 6700 3850 50  0000 C CNN
-F 1 "THERMISTOR" V 6500 3800 50  0000 C CNN
-F 2 "~" H 6600 3800 60  0000 C CNN
-F 3 "~" H 6600 3800 60  0000 C CNN
-	1    6600 3800
 	0    -1   -1   0   
 $EndComp
 Text Notes 5100 2550 0    60   ~ 0
@@ -430,9 +383,13 @@ L INDUCTOR L1
 U 1 1 530105C3
 P 8850 2300
 F 0 "L1" V 8800 2300 40  0000 C CNN
-F 1 "INDUCTOR" V 8950 2300 40  0000 C CNN
+F 1 "CM322522-220KL" V 8950 2300 40  0000 C CNN
 F 2 "~" H 8850 2300 60  0000 C CNN
 F 3 "~" H 8850 2300 60  0000 C CNN
+F 4 "Bournes Inc." H 8850 2300 60  0001 C CNN "MFG Name"
+F 5 "CM322522-220KL" H 8850 2300 60  0001 C CNN "MFG Part Num"
+F 6 "CM322522-220KLCT" H 8850 2300 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://www.bourns.com/data/global/pdfs/cm.pdf" H 8850 2300 60  0001 C CNN "Distrib Part Num 1 Link"
 	1    8850 2300
 	0    -1   -1   0   
 $EndComp
@@ -535,5 +492,80 @@ F 2 "~" H 9538 5000 30  0000 C CNN
 F 3 "~" H 9500 5150 60  0000 C CNN
 	1    9500 5150
 	1    0    0    -1  
+$EndComp
+$Comp
+L THERMISTOR TH2
+U 1 1 53092775
+P 5400 3400
+F 0 "TH2" V 5500 3450 50  0000 C CNN
+F 1 "MINISMDC050F-2" V 5300 3400 50  0000 C CNN
+F 2 "~" H 5400 3400 60  0000 C CNN
+F 3 "~" H 5400 3400 60  0000 C CNN
+F 4 "TE Connectivity" H 5400 3400 60  0001 C CNN "MFG Name"
+F 5 "MINISMDC050F-2" H 5400 3400 60  0001 C CNN "MFG Part Num"
+F 6 "MINISMDC050FCT" H 5400 3400 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://documents.tycoelectronics.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7FSCD25063%7FH%7Fpdf%7FEnglish%7FENG_SS_SCD25063_H.pdf" H 5400 3400 60  0001 C CNN "Distrib Part Num 1 Link"
+	1    5400 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L THERMISTOR TH3
+U 1 1 5309277F
+P 6000 3600
+F 0 "TH3" V 6100 3650 50  0000 C CNN
+F 1 "MINISMDC050F-2" V 5900 3600 50  0000 C CNN
+F 2 "~" H 6000 3600 60  0000 C CNN
+F 3 "~" H 6000 3600 60  0000 C CNN
+F 4 "TE Connectivity" H 6000 3600 60  0001 C CNN "MFG Name"
+F 5 "MINISMDC050F-2" H 6000 3600 60  0001 C CNN "MFG Part Num"
+F 6 "MINISMDC050FCT" H 6000 3600 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://documents.tycoelectronics.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7FSCD25063%7FH%7Fpdf%7FEnglish%7FENG_SS_SCD25063_H.pdf" H 6000 3600 60  0001 C CNN "Distrib Part Num 1 Link"
+	1    6000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L THERMISTOR TH4
+U 1 1 53092789
+P 6600 3800
+F 0 "TH4" V 6700 3850 50  0000 C CNN
+F 1 "MINISMDC050F-2" V 6500 3800 50  0000 C CNN
+F 2 "~" H 6600 3800 60  0000 C CNN
+F 3 "~" H 6600 3800 60  0000 C CNN
+F 4 "TE Connectivity" H 6600 3800 60  0001 C CNN "MFG Name"
+F 5 "MINISMDC050F-2" H 6600 3800 60  0001 C CNN "MFG Part Num"
+F 6 "MINISMDC050FCT" H 6600 3800 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://documents.tycoelectronics.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7FSCD25063%7FH%7Fpdf%7FEnglish%7FENG_SS_SCD25063_H.pdf" H 6600 3800 60  0001 C CNN "Distrib Part Num 1 Link"
+	1    6600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 53092812
+P 8850 4100
+F 0 "L2" V 8800 4100 40  0000 C CNN
+F 1 "CM322522-220KL" V 8950 4100 40  0000 C CNN
+F 2 "~" H 8850 4100 60  0000 C CNN
+F 3 "~" H 8850 4100 60  0000 C CNN
+F 4 "Bournes Inc." H 8850 4100 60  0001 C CNN "MFG Name"
+F 5 "CM322522-220KL" H 8850 4100 60  0001 C CNN "MFG Part Num"
+F 6 "CM322522-220KLCT" H 8850 4100 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://www.bourns.com/data/global/pdfs/cm.pdf" H 8850 4100 60  0001 C CNN "Distrib Part Num 1 Link"
+	1    8850 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L3
+U 1 1 5309281C
+P 8900 5500
+F 0 "L3" V 8850 5500 40  0000 C CNN
+F 1 "CM322522-220KL" V 9000 5500 40  0000 C CNN
+F 2 "~" H 8900 5500 60  0000 C CNN
+F 3 "~" H 8900 5500 60  0000 C CNN
+F 4 "Bournes Inc." H 8900 5500 60  0001 C CNN "MFG Name"
+F 5 "CM322522-220KL" H 8900 5500 60  0001 C CNN "MFG Part Num"
+F 6 "CM322522-220KLCT" H 8900 5500 60  0001 C CNN "Distrib Part Num 1"
+F 7 "http://www.bourns.com/data/global/pdfs/cm.pdf" H 8900 5500 60  0001 C CNN "Distrib Part Num 1 Link"
+	1    8900 5500
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
