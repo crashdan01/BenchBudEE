@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/22/2014 3:29:38 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/22/2014 6:00:48 PM
 
 BeginCmp
 TimeStamp = /52EBF29E/53080DCE;
@@ -213,57 +213,57 @@ EndCmp
 BeginCmp
 TimeStamp = /52F2E147/530962A5;
 Reference = D5;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F2E147/5309673B;
 Reference = D6;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F2E147/530963E5;
 Reference = D7;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F2E147/53096883;
 Reference = D8;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F2E147/53096B11;
 Reference = D9;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F2E147/53096B07;
 Reference = D10;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F2E147/53096BE4;
 Reference = D11;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F2E147/530970E2;
 Reference = D12;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
@@ -493,14 +493,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52F2E147/530920D8;
 Reference = R18;
-ValeurCmp = RVAR;
-IdModule  = ;
+ValeurCmp = 5K;
+IdModule  = EVUE3K;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F2E147/52F2FC8F;
 Reference = R19;
-ValeurCmp = R;
+ValeurCmp = 715Ω;
 IdModule  = SM0805;
 EndCmp
 
@@ -731,8 +731,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52F2E147/530931D6;
 Reference = R52;
-ValeurCmp = RVAR;
-IdModule  = ;
+ValeurCmp = 5K;
+IdModule  = EVUE3K;
 EndCmp
 
 BeginCmp
@@ -745,7 +745,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52F2E147/53093063;
 Reference = R54;
-ValeurCmp = R;
+ValeurCmp = 715Ω;
 IdModule  = SM0805;
 EndCmp
 
